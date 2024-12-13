@@ -1,0 +1,13 @@
+
+$ git init
+$ git branch
+$ rm -f .git/index.lock
+$ git checkout master
+$ git clone https://github.com/SahajaHolla/prog-6.git
+$ git checkout feature
+$ vi p6.txt
+$ touch p6.txt
+$ git add p6.txt
+$ git log
+$ git checkout master
+$ git merge feature -m"program 6"
